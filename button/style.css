@@ -1,0 +1,59 @@
+body{
+   text-align: center;
+   font-family: verdana;
+}
+#mybutton{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+#mylable{
+    font-size: 40px;
+}
+#div{
+    background-color: rgb(0, 0, 0);
+    border-radius: 28px;
+    position: relative;
+    margin: 10px 400px 10px 400px;
+    box-shadow: inset 0 0 10px #000000;
+    box-shadow: coral 4px 4px 13px;
+    color: white;
+    cursor: pointer;
+    
+}
+#div:hover{
+   background-color: rgb(26, 26, 26);
+   color: red;
+   box-shadow: rgb(255, 0, 140) 4px 4px 13px;
+   transition: 2s;
+   
+    
+}
+#div:active{
+    background-color: rgb(26, 26, 26);
+    color: rgb(0, 255, 238);
+    box-shadow: rgb(0, 255, 234) 4px 4px 13px;
+    transition: 0.5s;
+}
+#a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+#mybutton{
+    background-color: rgb(0, 0, 0);
+    color: plum;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: rgb(255, 107, 230) 4px 4px 13px;
+}
+#mybutton:hover{
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 77, 77);
+    box-shadow: rgb(255, 0, 0) 4px 4px 13px;
+    transition: 1s;
+}
+#mybutton:active{
+    background-color: rgb(26, 26, 26);
+    box-shadow: rgb(0, 255, 234) 4px 4px 13px;
+    color: salmon;
+}
