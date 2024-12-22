@@ -1,19 +1,10 @@
-const Decrease = document.getElementById("Decrease");
-const increase = document.getElementById("increase");
- const count1 = document.getElementById("count1");
-const Reset = document.getElementById("Reset");
+const mybutton = document.getElementById("mybutton");
+const mylable = document.getElementById("mylable");
+const max = 10;
+const min = 1;
+let randomNum;
 
-let count = 0;
- 
-Decrease.onclick = function(){
-    count--;
-    count1.textContent = count;
-}
-increase.onclick = function(){
-    count++;
-    count1.textContent = count;
-}
-Reset.onclick = function(){
-    count = 0;
-    count1.textContent = count;
+mybutton.onclick = function(){ 
+    randomNum = Math.floor(Math.random() * max) + min;
+    mylable.textContent = randomNum;
 }
