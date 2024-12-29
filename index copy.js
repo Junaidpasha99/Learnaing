@@ -1,5 +1,5 @@
 //MARKS 
-let mark = prompt("YO ENTER YOUR MARKS")
+let mark = prompt("YO ENTER YOUR MARKS ")
 let grade;
 
 if(mark >=80 && mark <=100){
